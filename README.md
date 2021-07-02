@@ -9,5 +9,5 @@ SpringBoot1.5.2、thymeleaf、quartz2.3.0、vue、layer、bootstrap
 - 在resources/application.properties 以及quartz.properties文件中替换为自己的数据源。
 - 运行Application main方法，启动项目，项目启动会初始化一个定时任务，见：
 ```
-https://gitee.com/Meow-Cat/Spring-Quartz-Scheduler/master/src/main/java/com/phoenix/QuartzApplication.java
+https://github.com/Meow-Cat/Spring-Quartz-Scheduler/blob/master/src/main/java/com/phoenix/QuartzApplication.java
 ```
