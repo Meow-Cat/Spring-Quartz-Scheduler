@@ -1,0 +1,25 @@
+quartz:
+  enabled: true
+server:
+  port: 8880
+  tomcat:
+    uri-encoding: UTF-8
+    threads:
+      max: 100
+spring:
+  application:
+    name: Spring-Quartz-Scheduler                                       #Quartz调度中心
+  profiles:
+    active: test
+  thymeleaf:
+    enabled: true  #开启thymeleaf视图解析
+    encoding: utf-8  #编码
+    prefix: classpath:/templates/  #前缀
+    cache: false  #是否使用缓存
+    mode: HTML  #严格的HTML语法模式
+    suffix: .html  #后缀名
+  mvc:
+    static-path-pattern: /**
+logging:
+  config: classpath:logback-boot.xml
+  level: error
